@@ -1,0 +1,21 @@
+{
+  "name": "aviator-zambia-lipila-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aviator wallet server configured for Zambia ZMW mobile-money payments through Lipila",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pdfkit": "^0.16.0",
+    "pg": "^8.13.1"
+  }
+}
